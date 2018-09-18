@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite of Parallel Testing using Methods" duration-ms="380" started-at="2018-09-17T10:28:39Z" finished-at="2018-09-17T10:28:40Z">
+    <groups>
+    </groups>
+    <test name="Testing of SnippingToolTesting" duration-ms="55" started-at="2018-09-17T10:28:39Z" finished-at="2018-09-17T10:28:40Z">
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+        <test-method status="PASS" signature="SnippingToolTesting()[pri:0, instance:MavenScripDemo.MavenProject.ParallelTestingUsingMethods@1efef64]" name="SnippingToolTesting" duration-ms="11" started-at="2018-09-17T10:28:40Z" finished-at="2018-09-17T10:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SnippingToolTesting -->
+      </class> <!-- MavenScripDemo.MavenProject.ParallelTestingUsingMethods -->
+    </test> <!-- Testing of SnippingToolTesting -->
+    <test name="Testing of MsWordTesting" duration-ms="16" started-at="2018-09-17T10:28:40Z" finished-at="2018-09-17T10:28:40Z">
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+        <test-method status="PASS" signature="MsWordTesting()[pri:1, instance:MavenScripDemo.MavenProject.ParallelTestingUsingMethods@bbfa04]" name="MsWordTesting" duration-ms="6" started-at="2018-09-17T10:28:40Z" finished-at="2018-09-17T10:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MsWordTesting -->
+      </class> <!-- MavenScripDemo.MavenProject.ParallelTestingUsingMethods -->
+    </test> <!-- Testing of MsWordTesting -->
+    <test name="Testing of MSExcelTesting" duration-ms="8" started-at="2018-09-17T10:28:40Z" finished-at="2018-09-17T10:28:40Z">
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+        <test-method status="PASS" signature="MSExcelTesting()[pri:2, instance:MavenScripDemo.MavenProject.ParallelTestingUsingMethods@153f17c]" name="MSExcelTesting" duration-ms="3" started-at="2018-09-17T10:28:40Z" finished-at="2018-09-17T10:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MSExcelTesting -->
+      </class> <!-- MavenScripDemo.MavenProject.ParallelTestingUsingMethods -->
+    </test> <!-- Testing of MSExcelTesting -->
+  </suite> <!-- Suite of Parallel Testing using Methods -->
+</testng-results>

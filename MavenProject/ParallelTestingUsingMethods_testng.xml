@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite of Parallel Testing using Methods" parallel="methods">
+  <test name="Testing of SnippingToolTesting">
+    <classes>
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+      <methods>
+      <include name="SnippingToolTesting"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Testing of MsWordTesting">
+    <classes>
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+      <methods>
+      <include name="MsWordTesting"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Testing of MSExcelTesting">
+    <classes>
+      <class name="MavenScripDemo.MavenProject.ParallelTestingUsingMethods">
+      <methods>
+      <include name="MSExcelTesting"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+</suite>
